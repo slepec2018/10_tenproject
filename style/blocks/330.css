@@ -1,0 +1,242 @@
+@media (max-width: 740px) {
+  .container {
+    width: 330px;
+  }
+  .header_container {
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+  .header_logo {
+    margin-right: 0;
+  }
+  .header_nav {
+    display: none;
+    position: absolute;
+    top: 55px;
+    width: 330px;
+    height: 532px;
+    background-color: #F3F3F3;
+    transition: top 1s;
+  }
+  .header_nav_on {
+    display: block;
+  }
+  .header_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header_list_item:first-child {
+    margin-top: 83px;
+  }
+  .header_list_item {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .header_list_link {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+  }
+  .header_button_bucket {
+    margin-left: 24px;
+  }
+  .header_button_menu {
+    margin-left: 36px;
+  }
+  .header_buttons_nav:hover .header_nav {
+    display: block;
+  }
+  .offer_container {
+    min-height: 1400px;
+  }
+  .offer_cap {
+    width: 241px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .offer_text {
+    width: 279px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .offer_buttons {
+    flex-wrap: wrap;
+  }
+  .offer_button_get {
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .offer_button_learn {
+    margin: 0 auto;
+  }
+  .offer_options {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .offer_option {
+    width: 328px;
+    margin-bottom: 30px;
+  }
+  .offer_option_cap {
+    width: 236px;
+  }
+  .offer_option_text {
+    width: 236px;
+  }
+  .stat_container {
+    padding-top: 98px;
+    padding-bottom: 160px;
+  }
+  .stat_text {
+    width: 206px;
+    margin-bottom: 75px;
+  }
+  .stat_kinds {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .stat_kind {
+    width: 238px;
+    margin-bottom: 30px;
+  }
+  .stat_kind_num {
+    font-size: 40px;
+  }
+  .practice_container {
+    padding-top: 100px;
+    padding-bottom: 138px;
+  }
+  .practice_cap {
+    width: 174px;
+    margin: 0 auto;
+  }
+  .practice_text {
+    width: 206px;
+    margin-bottom: 75px;
+  }
+  .practice_cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .practice_card {
+    width: 240px;
+    margin-bottom: 30px;
+  }
+  .practice_card_text {
+    width: 210px;
+  }
+  .about_container {
+    padding-top: 100px;
+    padding-bottom: 205px;
+  }
+  .about_cap {
+    width: 251px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .about_text {
+    width: 206px;
+  }
+  .about_vid {
+    width: 333px;
+    background: url(../pictures/about_video_mobile.jpg) no-repeat center;
+    margin-bottom: 72px;
+  }
+  .about_vid_button {
+    left: 122px;
+  }
+  .about_col_2_cap {
+    width: 100%;
+  }
+  .about_col_2_text {
+    width: 100%;
+  }
+  .brands_container {
+    padding-top: 81px;
+    padding-bottom: 25px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .brands_pic {
+    margin-bottom: 60px;
+  }
+  .subscribe {
+    background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
+  }
+  .subscribe_container {
+    height: 212px;
+  }
+  .subscribe_form {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0;
+  }
+  .subscribe_cap {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .subscribe_email {
+    width: 220px;
+    margin-bottom: 30px;
+  }
+  .subscribe_button {
+    width: 112px;
+    margin-top: -1px;
+  }
+  .support_container {
+    padding-top: 75px;
+    padding-bottom: 107px;
+  }
+  .support_text {
+    width: 271px;
+    margin-bottom: 60px;
+  }
+  .support_vars {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .support_var {
+    margin-bottom: 30px;
+  }
+  .request_container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .request_cap {
+    width: 239px;
+  }
+  .request_text {
+    width: 170px;
+    margin-bottom: 50px;
+  }
+  .footer_top_nav {
+    flex-direction: column;
+  }
+  .footer_top_nav_list {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .footer_container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .footer_text {
+    margin-bottom: 50px;
+  }
+}
